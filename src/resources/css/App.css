@@ -1,0 +1,55 @@
+h1,
+h2
+ {
+    color: #406885;
+}
+
+.container {
+    justify-content: center;
+}
+
+.footer {
+    overflow: auto;
+    background-color: #406885;
+    color: #fafafa;
+}
+
+p {
+    font-size: large;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    font-size: large;
+}
+
+span.linkedin {
+    color: white;
+    font-size: medium;
+}
+
+textarea {
+    resize: none;
+}
+
+.form_display {
+    width: 50%;
+}
+
+.service {
+    color: #406885;
+}
+
+.service_title {
+    font-size: x-large;
+}
+
+@media screen and (max-width: 768px ) {
+    .cellphone {
+        display: none
+    }
+    .form_display {
+        width: 100%;
+    }
+}
