@@ -8,7 +8,7 @@ import ServicioComp from '../components/ServicioComp';
 const NuestroServicioCardComp = props => {
     return (
         <Fragment>
-            <Col sm={8} md={8} lg={4} xl={3} className="desktop_services">
+            <Col sm={8} md={8} lg={6} xl={3} className="desktop_services">
                 <div className="shadow p-3 mb-5 rounded service_card">
                     <ServicioComp
                         title={props.title}
