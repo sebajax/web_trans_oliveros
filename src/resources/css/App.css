@@ -45,11 +45,22 @@ textarea {
     font-size: x-large;
 }
 
+.service_card {
+    min-height: 35%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 35vh; /* These two lines are counted as one :-)       */    
+}
+
 @media screen and (max-width: 768px ) {
     .cellphone {
         display: none
     }
     .form_display {
         width: 100%;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .desktop_services {
+        margin-right: 35px;
     }
 }

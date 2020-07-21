@@ -24,7 +24,7 @@ const ContactComp = () => {
                             <InputGroup>
                                 <InputGroup.Prepend>
                                     <InputGroup.Text>
-                                        <FontAwesomeIcon icon={faUser} size="mx-auto" />
+                                        <FontAwesomeIcon icon={faUser} />
                                     </InputGroup.Text>
                                 </InputGroup.Prepend>
                                 <Form.Control type="text" placeholder="Nombre completo" required />
@@ -35,7 +35,7 @@ const ContactComp = () => {
                             <InputGroup>
                                 <InputGroup.Prepend>
                                     <InputGroup.Text>
-                                        <FontAwesomeIcon icon={faPhoneAlt} size="mx-auto" />
+                                        <FontAwesomeIcon icon={faPhoneAlt} />
                                     </InputGroup.Text>
                                 </InputGroup.Prepend>
                                 <Form.Control type="text" placeholder="Telefono de contacto" />
@@ -46,7 +46,7 @@ const ContactComp = () => {
                             <InputGroup>
                                 <InputGroup.Prepend>
                                     <InputGroup.Text>
-                                        <FontAwesomeIcon icon={faEnvelope} size="mx-auto" />
+                                        <FontAwesomeIcon icon={faEnvelope} />
                                     </InputGroup.Text>
                                 </InputGroup.Prepend>
                                 <Form.Control type="text" placeholder="Email" />

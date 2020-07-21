@@ -8,28 +8,28 @@ const HeaderComp = () => {
 
     return (
         <Fragment>
-            <Navbar collapseOnSelect style={{ "background-color": "#406885"}} expand="lg">
+            <Navbar collapseOnSelect style={{ "backgroundColor": "#406885"}} expand="lg">
                 <Navbar.Brand className="text-white" href="/">
                     <FontAwesomeIcon icon={faSuitcaseRolling} size="2x" className="mr-3" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
-                    <Nav>
-                        <Nav.Link>
+                    <Nav className="align-items-center">
+                        <Nav.Item className="desktop_services">
                             <AnchorLink href="#nuestro_servicio"> Nuestro servicio </AnchorLink>
-                        </Nav.Link>
-                        <Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className="desktop_services">
                             <AnchorLink href="#quienes_somos"> Quienes somos </AnchorLink>
-                        </Nav.Link>
-                        <Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className="desktop_services">
                             <AnchorLink href="#mision"> Mision </AnchorLink>
-                        </Nav.Link>
-                        <Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className="desktop_services">
                             <AnchorLink href="#nuestros_clientes"> Nuestros clientes </AnchorLink>
-                        </Nav.Link>
-                        <Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
                             <AnchorLink href="#contactenos"> Contactenos </AnchorLink>
-                        </Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

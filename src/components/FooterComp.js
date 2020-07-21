@@ -53,7 +53,7 @@ const FooterComp = () => {
                         </Col>
                     </Row>
                 </Container>
-                <div style={{ "background-color": "#2d5470" }} className="text-center py-3">
+                <div style={{ "backgroundColor": "#2d5470" }} className="text-center py-3">
                     <span style={{ "color": "#adadad" }}> © 2020 Copyright: </span> 
                     <span> Transportes Oliveros </span> 
                 </div>

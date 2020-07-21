@@ -17,7 +17,7 @@ const NuestrosClientesComp = () => {
             <Jumbotron>
                 <Container className="w-75">
                     <Row className="justify-content-center">
-                        <Col sm={1} lg={4}>
+                        <Col xs={8} sm={6} md={4} lg={4} xl={4}>
                             <img src={United} alt="United" className="w-100" />
                             <img src={AirFrance} alt="Air France" className="w-100" />
                             <img src={AlItalia} alt="Al Italia" className="w-100" />

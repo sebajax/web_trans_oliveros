@@ -7,11 +7,11 @@ const SectionComp = props => {
         <Fragment>
             <Jumbotron>
                 <Container className="w-75">
-                    <Row className="justify-content-md-center align-items-center">
-                        <Col sm>
+                    <Row className="justify-content-center align-items-center">
+                        <Col xs={12} sm={12} md={12} lg={10} xl={8}>
                             <img className="align-self-center rounded w-100" src={props.img} alt={props.title} />
                         </Col>
-                        <Col sm className="mt-2">
+                        <Col xs={12} sm={12} md={12} lg={10} xl={8}  className="mt-5">
                             {props.body}
                         </Col>
                     </Row>
