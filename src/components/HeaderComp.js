@@ -22,13 +22,13 @@ const HeaderComp = () => {
                             <AnchorLink href="#quienes_somos"> Quienes somos </AnchorLink>
                         </Nav.Item>
                         <Nav.Item className="desktop_services">
-                            <AnchorLink href="#mision"> Mision </AnchorLink>
+                            <AnchorLink href="#mision"> Misión </AnchorLink>
                         </Nav.Item>
                         <Nav.Item className="desktop_services">
                             <AnchorLink href="#nuestros_clientes"> Nuestros clientes </AnchorLink>
                         </Nav.Item>
                         <Nav.Item>
-                            <AnchorLink href="#contactenos"> Contactenos </AnchorLink>
+                            <AnchorLink href="#contactenos"> Contáctenos </AnchorLink>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

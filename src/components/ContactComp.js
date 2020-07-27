@@ -38,8 +38,8 @@ const ContactComp = () => {
                                         <FontAwesomeIcon icon={faPhoneAlt} />
                                     </InputGroup.Text>
                                 </InputGroup.Prepend>
-                                <Form.Control type="text" placeholder="Telefono de contacto" />
-                                <Form.Control.Feedback></Form.Control.Feedback>
+                                <Form.Control type="text" placeholder="Teléfono de contacto" required />
+                                <Form.Control.Feedback type="invalid">Debe ingresar Teléfono</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                         <Form.Group controlId="">
@@ -49,13 +49,13 @@ const ContactComp = () => {
                                         <FontAwesomeIcon icon={faEnvelope} />
                                     </InputGroup.Text>
                                 </InputGroup.Prepend>
-                                <Form.Control type="text" placeholder="Email" />
-                                <Form.Control.Feedback></Form.Control.Feedback>
+                                <Form.Control type="text" placeholder="Email" required />
+                                <Form.Control.Feedback type="invalid">Debe ingresar Email</Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
                         <Form.Group controlId="">
-                            <Form.Control as="textarea" rows="6" placeholder="Mensaje" />
-                            <Form.Control.Feedback></Form.Control.Feedback>
+                            <Form.Control as="textarea" rows="6" placeholder="Mensaje" required />
+                            <Form.Control.Feedback type="invalid">Debe ingresar Mensaje</Form.Control.Feedback>
                         </Form.Group>
                         <div className="d-flex justify-content-end">
                             <Button variant="primary" type="submit">Enviar mensaje</Button>   
